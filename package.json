@@ -1,20 +1,31 @@
 {
    "name": "typeorm-migration-bug",
    "version": "1.0.0",
-   "description": "",
+   "description": "Steps to run this project:",
    "main": "index.js",
+   "dependencies": {
+      "mysql": "^2.14.1",
+      "pg": "^8.3.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.25"
+   },
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "ts-node src/index.ts"
    },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ekzyis/typeorm-migration-bug.git"
+   },
    "author": "",
    "license": "ISC",
-   "dependencies": {
-      "typeorm": "0.2.25",
-      "reflect-metadata": "^0.1.10",
-      "mysql": "^2.14.1"
+   "bugs": {
+      "url": "https://github.com/ekzyis/typeorm-migration-bug/issues"
    },
-   "devDependencies": {
-      "@types/node": "^8.0.29"
-   }
+   "homepage": "https://github.com/ekzyis/typeorm-migration-bug#readme"
 }
